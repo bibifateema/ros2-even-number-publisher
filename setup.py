@@ -24,7 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [ 
-                      'even_publisher = even_number_pkg.even_publisher:main'
+                      'even_publisher = even_number_pkg.even_publisher:main',
+                      'random_publisher = even_number_pkg.random_publisher:main',
         ],
     },
 )
